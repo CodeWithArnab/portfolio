@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons dark:text-cyan-500'>Arnab Debnath</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill  onClick={()=>setDarkMode(!darkMode)} className='dark:text-white cursor-pointer text-2xl' /></li>
-              <li><button  target="_blank"  className='bg-gradient-to-r from-blue-900 to-cyan-500 text-white px-4 py-2 rounded-md ml-8'>Resume</button></li>
+              <li><button onClick={()=> window.open("https://drive.google.com/file/d/1w2lXjnKmHA2lEVPpDD8Gfx8B1NNDAvQN/view?usp=sharing", "_blank")} target="_blank"  className='bg-gradient-to-r from-blue-900 to-cyan-500 text-white px-4 py-2 rounded-md ml-8'>Resume</button></li>
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
