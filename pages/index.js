@@ -28,7 +28,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
-          <h1 className={darkMode? "myName" :"text-5xl py-2 text-cyan-500 font-medium  "+"md:text-6xl"} contenteditable spellcheck="false">Arnab Debnath</h1>
+          <h1 className={darkMode? "myName" :"text-5xl py-2 text-cyan-500 font-medium  "+"md:text-6xl"} >Arnab Debnath</h1>
             <h3 clasName='text-2xl py-3 md:text-3xl '>Developer and competitive programmer.</h3>
             <p className='text-md py-6 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>I am problem solver and I love to solve algorithmic problems a lot.
               I am a web Developer too and have worked on full stack Development
@@ -39,7 +39,7 @@ export default function Home() {
             <AiFillLinkedin className='cursor-pointer shadow-sm  rounded-xl dark:shadow-cyan-500' onClick={()=> window.open("https://www.linkedin.com/in/arnab-debnath-46a462215/", "_blank")}/>
           </div>
           <div className='relative shadow-2xl dark:shadow-cyan-500 bg-none rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:h-1000 md:w-1000'>
-            <Image  src={avatar}   alt='#'/>
+            <img  src="https://res.cloudinary.com/danpkw54y/image/upload/v1667161673/avatar_nplxz2.jpg"   alt='#'/>
           </div>
         </section>
         <section>
@@ -51,12 +51,12 @@ export default function Home() {
           </div>
           <div className=' lg:flex gap-10 '>
             <div onClick={()=> window.open("https://gonkartv1.herokuapp.com/", "_blank")} className='cursor-pointer dark:shadow-lg dark:shadow-cyan-500/50 text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image alt='' className='mx-auto' src={ecomm} width={200} height={200}/>
+              <img alt='' className='mx-auto' src="https://res.cloudinary.com/danpkw54y/image/upload/v1667161687/e-comm1_lgs4jb.webp" width={200} height={200}/>
               <h3 className='text-xl font-medium pt-8 pb-2 dark:text-cyan-400'>E-Commerce Website</h3>
               <p className='dark:text-white py-2 text-gray-800'>A full stack e-commerce website made by <span className='text-cyan-500'>HTML, CSS, JAVASCRIPT</span> and for the backend we have used <span className='text-cyan-500'>POSTGRESQL & PHP</span></p>
             </div>
             <div onClick={()=> window.open("https://soukarja.github.io/ImdbMovieWebsite_React/", "_blank")} className='  dark:shadow-lg cursor-pointer dark:shadow-cyan-500/50 text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image alt='' className='mx-auto' src={movie} width={200} height={200}/>
+              <img alt='' className='mx-auto' src="https://res.cloudinary.com/danpkw54y/image/upload/v1667161693/movie_nsirfv.jpg" width={200} height={200}/>
               <h3 className='text-xl font-medium pt-8 pb-2 dark:text-cyan-400'>Movie-DB Website</h3>
               <p className='dark:text-white py-2 text-gray-800'>A Front-End movie-rating website made by <span className='text-cyan-500'>REACT, SASS, JAVASCRIPT, REACT-HOOKS, </span>
               It fetches data from   <span className='text-cyan-500'>API</span></p>
